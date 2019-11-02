@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "kalyan",
+      "lastName": "kumar",
+      "gender": "male",
+      "email": "kalyan@gmail.com",
+      "username": "venu",
+      "phone": 8897917920,
+      "course": "UI",
+      "address": "guntur",
+      "city": "sattenapalli",
+      "village": "pan",
+      "pin": 522403
+    },
+    {
+      "firstName": "venugopal",
+      "lastName": "boddu",
+      "gender": "male",
+      "email": "venu@gmail.com",
+      "username": "venu",
+      "phone": 8897917920,
+      "course": "UI",
+      "address": "guntur",
+      "city": "sattenapalli",
+      "village": "pan",
+      "pin": 522403,
+      "id": 2
+    },
+    {
+      "firstName": "Akram",
+      "lastName": "Shaik",
+      "gender": "male",
+      "email": "akram@gmail.com",
+      "username": "akram",
+      "phone": 9987456321,
+      "course": "4: Python",
+      "address": "D no: 5-1-36/5, Gandhi road, L B Nagar, Hyderabad, Telangana.",
+      "city": "Hyderabad",
+      "village": "L B Nagar",
+      "pin": 522001,
+      "id": 3
+    }
+  ]
+}

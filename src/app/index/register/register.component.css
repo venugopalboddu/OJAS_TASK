@@ -1,0 +1,11 @@
+.bg-dark {
+    background-color: #A9E8E8;
+}
+
+.container-fluid1 {
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+	margin-top:-50px;
+}
