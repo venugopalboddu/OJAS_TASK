@@ -1,3 +1,4 @@
+import { Auth1Service } from 'src/app/auth1.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-
-  constructor() { }
+  username: string;
+  constructor(private auth: Auth1Service) { }
 
   ngOnInit() {
+
+    this.username = localStorage.getItem("LoggedInUser");
+    console.log('username', this.username);
   }
 
 }

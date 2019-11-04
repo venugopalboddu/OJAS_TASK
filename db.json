@@ -41,6 +41,55 @@
       "village": "L B Nagar",
       "pin": 522001,
       "id": 3
+    },
+    {
+      "firstName": "sarala",
+      "lastName": "kumari",
+      "gender": "female",
+      "email": "sarala@gmail.com",
+      "username": "sarala",
+      "phone": 7798541236,
+      "course": "4: Python",
+      "address": "F-403, Siri Enclave, Annam Raju Nagar,\nOpp Asta Lakshmi Temple, Kommadi,\nMadhurawada,\nVisakhapatnam, Andhra Pradesh, 530048.",
+      "city": "Visakhapatnam",
+      "village": "Maddilapalem",
+      "pin": 500010,
+      "id": 4
+    },
+    {
+      "firstName": "Srinivasarao",
+      "lastName": "Nagiri",
+      "gender": "male",
+      "email": "srinu@gmail.com",
+      "username": "srinu",
+      "phone": 8179654125,
+      "course": "1: Java",
+      "address": "D no: 5-4-555/6, Nujendla, Vinukonda, Guntur(d.t), Andhra Pradesh, 522401.",
+      "city": "Vinukonda",
+      "village": "Nujendla",
+      "pin": 522401,
+      "id": 5
+    },
+    {
+      "firstName": "Prasanth",
+      "lastName": "Kumar",
+      "gender": "male",
+      "email": "prasanth@gmail.com",
+      "username": "prasanth",
+      "phone": 8896541248,
+      "course": "3: UI",
+      "address": "Warangal, Telangana.",
+      "city": "Warangal",
+      "village": "Vaddanapeta",
+      "pin": 522013,
+      "id": 6
+    }
+  ],
+  "login": [
+    {
+      "username": "kalyan",
+      "password": "acasca",
+      "id": 1
     }
   ]
 }

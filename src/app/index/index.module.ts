@@ -6,11 +6,12 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { AuthgGuard } from '../authg.guard';
 
 const routes = [
   {path: 'login', component: LoginComponent},
   {path: 'reg', component: RegisterComponent},
-  {path: 'dash', component: DashboardComponent}
+  {path: 'dash', component: DashboardComponent, canActivate: [AuthgGuard]}
 ]
 
 

@@ -7,12 +7,14 @@
                 </div>
                 
       <div class="col-md-1"  style="margin-top: 60px">
-            <a [routerLink]="['/load']" class="btn btn-primary">Logout</a>
+        
+        <a class="btn btn-primary" *ngIf="auth.isLoggedIn()" (click)="auth.logout()"><b style="color:white">Logout</b></a>
         </div>  
        
         </div>
         <br>
+        <h2 style="margin-top:40px;margin-right: 130px" class="text-center">Hello {{username}}</h2>
         <h2 style="margin-top:40px;margin-right: 130px" class="text-center">Ojas welcomes you!</h2>
         <h2 style="margin-top:40px;margin-right: 130px" class="text-center">Thank you for selecting us!</h2>
        
-       
+     
